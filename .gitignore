@@ -1,0 +1,19 @@
+# Entornos virtuales
+dbt_venv/
+venv/
+__pycache__/
+
+# Datos y archivos temporales
+files/*.json
+files/*.csv
+
+# Bases de datos locales
+*.db
+*.sqlite
+
+# Logs de Airflow
+logs/
+
+# Archivos de dbt generados automáticamente
+cripto_dbt/target/
+cripto_dbt/dbt_packages/
